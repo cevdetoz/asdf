@@ -58,5 +58,6 @@ WebElement singOutText=driver.findElement(By.linkText("Sign out"));
 
         List<WebElement> linkListesi=driver.findElements(By.tagName("a"));
         System.out.println("sayfada: "+linkListesi.size()+" tane link var");
+        driver.close();
     }
 }
